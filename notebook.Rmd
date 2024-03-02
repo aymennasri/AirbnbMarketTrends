@@ -138,11 +138,3 @@ review_dates <- tibble(earliest_review, most_recent_review,
                                           "nb_private_rooms", "avg_price"))
 review_dates
 ```
-
-
-
-
-
-
-
-
