@@ -1,5 +1,5 @@
 ---
-title: 'Project: Exploring Airbnb Market Trends'
+title: 'Exploring Airbnb Market Trends'
 output:
   html_document:
     df_print: paged
@@ -61,7 +61,7 @@ head(last_review_data, n = 10)
 is.Date(last_review_data$last_review)
 ```
 
-The observations are dates in the format %B %d %Y, we have to transform them to the %Y-%m-%d format using the anydate function from the library anytime.
+The dates are simply strings, we have to transform them to an actual date type using the anydate function from the library anytime.
 
 ```{r}
 new_rev_data <- last_review_data %>% 
