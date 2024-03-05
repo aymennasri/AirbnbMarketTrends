@@ -1,5 +1,6 @@
 ---
 title: 'Exploring Airbnb Market Trends'
+author: 'Aymen Nasri'
 output:
   html_document:
     df_print: paged
